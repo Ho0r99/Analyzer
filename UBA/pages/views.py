@@ -1,6 +1,7 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+
 # Create your views here.
 
+# THIS THE FUNCTION IS CREATE  THE PAGES 
 def index(request):
-    return HttpResponse('hello world')
+ return render(request,'pages/index.html')
