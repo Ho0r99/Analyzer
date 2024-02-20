@@ -4,4 +4,7 @@ from django.shortcuts import render
 
 # THIS THE FUNCTION IS CREATE  THE PAGES 
 def index(request):
- return render(request,'pages/index.html')
+ return render(request,'pages/index.html',)
+
+def Register(request):
+  return render(request,'pages/Register.html',)
