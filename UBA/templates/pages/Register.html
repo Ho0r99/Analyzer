@@ -1,46 +1,7 @@
 {% extends 'base.html'%}
 
-{%block content%}
+{% block content %} 
+<h1>Hello register </h1>
+{% endblock content %}
    
-<!DOCTYPE html>
-<html dir="ltr" lang="en">
-
-   
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login page</title>
-
-    <!-- Custom css file link -->
-<link rel="stylesheet" href=static/css/base.css>
-</head>
-
-<body>
-
-<h1>WELCOME</h1>
-      <div>
-   <label for="uname"><b>Username</b></label>
-   <input type="text" placeholder="Enter Username" name="uname" required>
-</div>
-<div>
-
-   <label for="psw"><b>Password</b></label>
-   <input type="password" placeholder="Enter Password" name="psw" required>
-</div>
-<div>
-   <label>
-     <input type="checkbox" checked="checked" name="remember"> Remember me
-   </label>
-   <div>   <button type="submit">Login</button>
-   </div>
-</div>
- </div>
- <div class="container" style="background-color:#f1f1f1">
-   <button type="button" class="cancelbtn">Cancel</button>
-   <span class="psw">Forgot <a href="#">password?</a></span>
- </div>
-</body>
-
-</html>
-
-{% endblock content%}
+    
